@@ -1,0 +1,60 @@
+@media screen and (max-height: 800px){
+    footer{
+        top: 800px;
+    }
+}
+
+@media screen and (max-width: 1550px){
+    .img-header{
+        left: 180px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    section{
+        margin: 10px;
+    }
+    footer{
+        top: 1400px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .card{
+        width: 278px;
+        height: 714px;
+    }
+    footer{
+        top: 1600px;
+    }
+    .telefone{
+        flex-direction: column;
+    }
+    .view{
+        width: 278px;
+        height: 530px;
+    }
+    #Ficha{
+        height: 300px;
+    }
+    .button{
+        width: 260px;
+    }
+    main{
+        align-items: center;
+    }
+    .img-header{
+        left: 315px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .img-header{
+        left: 50px;
+    }
+}

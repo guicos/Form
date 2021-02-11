@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background:  #F3F3F3;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*CSS section*/
+
+.card{
+    justify-content: start;
+    border-radius: 4px;
+    opacity: 1;
+    width: 486px;
+    height: 583px;
+}
+
+.form{
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px #2E2D2C66;    
+}
+
+.barra{
+    width: 100%;
+    height: 10px;
+    border-radius: 4px 4px 0px 0px;
+    background: #C4C8CC;
+}
+
+.view{
+    background: #EBF0F5;
+    border: 1px solid #C4C8CC;
+    width: 486px;
+    height: 583px;
+}
+
+/* Ficha */
+
+.data-ficha{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+/*CSS Form*/
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    border: 1px solid #ABABAB;
+    border-radius: 2px;
+}
+
+button{
+    background: #3570B2;
+    box-shadow: 0px 3px 6px #2E2D2C66;
+    border-radius: 20px;
+    border: none;
+    width: 88px;
+    height: 40px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*CSS Carousel*/
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel_item{
+    display: none;
+    position: relative;
+    padding: 1%;
+    right: 5px;
+}
+
+.carousel_item--visible{
+    display: block;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    height: 120px;
+    width: 174px;
+    object-fit: cover;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 3px 6px #2E2D2C66;
+    opacity: 1;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80px;
+    width: 470px;
+}
+#triangulo-direita{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #C4C8CC;
+    transform: rotate(-91deg);
+}
+
+#triangulo-esquerda{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #C4C8CC;
+    transform: rotate(91deg);
+}
