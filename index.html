@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/details.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Doket</title>
+</head>
+<body>
+    <script src="./script/API.js"></script>
+    <script src="./script/carousel.js"></script>   
+    <header>
+        <img class="fundo-header" src="./img/component.png" alt="Background">
+        <img class="img-header" src="./img/component (1).png" alt="Logo docker">
+    </header>
+    <main>
+        <section class="card form">
+                <div class="letra">Venha trabalhar na Doket</div>
+                <div>Preencha o formulário abaixo e venha trabalhar em uma das startups mais desejadas do Brasil</div> 
+                <div id="dados-pessoais">Dados pessoais</div>
+                <form data-js="form">
+                    <div>
+                        <label for=""> * Nome Completo</label>
+                        <input type="text" name="name" id="name" placeholder="Seu Nome Completo">
+                        <span>mensagem de feedback</span>
+                    </div>
+    
+                    <div>
+                        <label for=""> * Email</label>
+                        <input type="text" name="email" id="email" placeholder="seunome@sobrenome.com.br">
+                        <span>mensagem de feedback</span>
+                    </div>
+    
+                    <div class="telefone">
+                        <div id="tl">
+                            <label for="">* Telefone 1:</label>
+                            <input type="tel" name="telefone" id="telefone_1" placeholder="(88) 8888-8888">
+                            <span>mensagem de feedback</span>
+                        </div>
+                        <div id="te">
+                            <label for="">* Telefone 2:</label>
+                            <input type="tel" name="telefone" id="telefone_2" placeholder="(88) 8888-8888">
+                            <span>mensagem de feedback</span>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <button type="submit" >Enviar</button>
+                    </div>
+                </form>
+        </section>
+
+        <section class="card">
+            <div class="view" id="width">
+                <div class="barra"></div>
+                <div class="ficha">
+                    <div class="letra titulo">Ficha do Candidato</div>
+                    <article data-js="Ficha" id="Ficha">
+    
+                    </article>
+                    <div id="seus-projetos">Seus projetos:</div>
+                    <div class="slider">
+                        <div class="carousel">
+                            <!-- API images loaded here -->
+                        </div>
+                        <div class="button">
+                            <div type="button" data-js="carouserl_button--prev" id="triangulo-esquerda" aria-label="Proximo Slide"></div>
+                            <div type="button" data-js="carouserl_button--next" id="triangulo-direita" aria-label="Proximo Slide"></div>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </section>    
+    </main>
+    <footer>
+        <div>DOCKET 2019</div>
+    </footer>
+    <script src="./script/validation.js"></script>
+</body>
+
+</html>
