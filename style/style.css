@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    overflow-x: hidden;
+    overflow-y: hidden !important;
     font-family: 'Open Sans', sans-serif;
     background:  #F3F3F3;
     width: 100%;
