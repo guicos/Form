@@ -6,13 +6,6 @@
     object-fit: cover;
 }
 
-.img-header{
-    position: relative;
-    left: 315px;
-    top: 50px;
-
-}
-
 footer {
     position:absolute;
     bottom: 0;
